@@ -13,7 +13,7 @@ public class ArrayClass {
             System.out.print(" " + numbers[i]);
         }
 
-        String[] names = { "Sharp", "Samsung", "Tidal", "Spotify", "St.Lukes", "JP.Morgan" };
+        String[] names = { "Sharp", "Samsung", "Tidal", "Spotify", "St.Lukes", "JP.Morgan", "EnerSys" };
 
         Arrays.sort(names);
         System.out.println();
@@ -26,5 +26,7 @@ public class ArrayClass {
         // ArraysList Example
         ArrayList<String> myFamily = new ArrayList<>(Arrays.asList("Abraham", "Maria", "Irma", "Yvonne", "Kevin"));
         System.out.println(myFamily);
+
+        System.out.println();
     }
 }
