@@ -13,7 +13,7 @@ public class ArrayClass {
             System.out.print(" " + numbers[i]);
         }
 
-        String[] names = { "Sharp", "Samsung", "Tidal", "Spotify", "St.Lukes", "JP.Morgan", "EnerSys" };
+        String[] names = { "Netflix", "Samsung", "Tidal", "Spotify", "St.Lukes", "JP.Morgan", "Apple" };
 
         Arrays.sort(names);
         System.out.println();
